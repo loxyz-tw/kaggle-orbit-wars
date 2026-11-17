@@ -1,0 +1,9 @@
+# GPU training (CUDA 12). For CPU-only inference/eval, `jax==0.10.1` alone is enough.
+jax==0.10.1
+jaxlib==0.10.1
+jax-cuda12-plugin==0.10.1
+jax-cuda12-pjrt==0.10.1
+flax==0.12.7
+optax==0.2.8
+numpy
+kaggle-environments==1.29.3

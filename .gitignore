@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+# data, checkpoints and built submissions (contain weights) stay out of git
+ckpt/
+logs/
+bc_chunks/
+replays/
+*.npz
+*.csv
+submission/sub_*.py
+*.zip
